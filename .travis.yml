@@ -46,3 +46,6 @@ before_script:
   - adb shell input keyevent 82 &
 
 script: bundle exec fastlane android upload_screenshots
+on:
+  tags: true
+  repo: crftd/postcss-glitch
