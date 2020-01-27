@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -13,7 +14,10 @@ import {Container, Card, CardItem, Text, Body} from 'native-base';
 const App: () => React$Node = () => {
   return (
     <Container>
-      <Card>
+      <Card
+        accessable={true}
+        accessibilityLabel="CONTAINER"
+      >
         <CardItem header>
           <Text>Greetings</Text>
         </CardItem>
@@ -27,6 +31,8 @@ const App: () => React$Node = () => {
         </CardItem>
         <CardItem
           footer
+          accessable={true}
+          accessibilityLabel="START_SETUP"
           button
           onPress={() => alert('Whoops, not implemented yet')}>
           <Text>Set up</Text>

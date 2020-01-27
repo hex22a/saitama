@@ -1,0 +1,59 @@
+platform :ios do
+   # iOS Lanes
+end
+
+platform :android do
+  desc 'Build the Android application.'
+  private_lane :build do
+    gradle(task: 'clean', project_dir: 'android/')
+    gradle(
+      task: 'assemble',
+      build_type: 'Release',
+      project_dir: 'android/'
+      )
+  end
+
+  desc 'Ship to Playstore Beta.'
+  lane :beta do
+    build
+    supply(track: 'beta', track_promote_to: 'beta')
+  end
+
+  desc "Build debug and test APK for screenshots"
+  lane :build_for_screengrab do
+    gradle(
+      task: 'clean',
+      project_dir: 'android/'
+    )
+    build_android_app(
+      task: 'assemble',
+      build_type: 'Debug',
+      project_dir: 'android/'
+    )
+    build_android_app(
+      task: 'assemble',
+      build_type: 'AndroidTest',
+      project_dir: 'android/'
+    )
+  end
+
+  desc "Take screensots"
+  lane :screenshots do
+    build_for_screengrab
+    capture_android_screenshots
+  end
+
+  desc "Upload screenshots"
+  lane :upload_screenshots do
+    upload_to_play_store(
+      package_name: "com.saitama",
+      skip_upload_apk: true,
+      skip_upload_aab: true,
+      skip_upload_metadata: true,
+      skip_upload_changelogs: true,
+      skip_upload_images: true,
+      track: "beta",
+      track_promote_to: "beta"
+    )
+  end
+end
