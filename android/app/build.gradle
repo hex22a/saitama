@@ -164,9 +164,9 @@ android {
         release {
             if (project.hasProperty('SAITAMA_UPLOAD_STORE_FILE')) {
                 storeFile file(SAITAMA_UPLOAD_STORE_FILE)
-                storePassword hasProperty('SAITAMA_STORE_PASSWORD') ? SAITAMA_STORE_PASSWORD : System.getenv('SAITAMA_STORE_PASSWORD')
+                storePassword hasProperty('SAITAMA_STORE_PASSWORD') ? SAITAMA_STORE_PASSWORD : System.getenv('RELEASE_SAITAMA_STORE_PASSWORD')
                 keyAlias SAITAMA_UPLOAD_KEY_ALIAS
-                keyPassword hasProperty('SAITAMA_KEY_PASSWORD') ? SAITAMA_KEY_PASSWORD : System.getenv('SAITAMA_KEY_PASSWORD')
+                keyPassword hasProperty('SAITAMA_KEY_PASSWORD') ? SAITAMA_KEY_PASSWORD : System.getenv('RELEASE_KEY_PASSWORD')
             }
         }
     }
