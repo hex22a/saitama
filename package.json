@@ -9,12 +9,15 @@
     "start": "react-native start",
     "link": "react-native link",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "native-base": "^2.13.8",
     "react": "16.9.0",
-    "react-native": "0.69.12"
+    "react-native": "0.74.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -29,5 +32,6 @@
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "snyk": true
 }
