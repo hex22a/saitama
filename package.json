@@ -14,7 +14,7 @@
     "snyk-protect": "snyk-protect"
   },
   "dependencies": {
-    "native-base": "^2.13.8",
+    "native-base": "^3.0.0",
     "react": "16.9.0",
     "react-native": "0.74.0",
     "@snyk/protect": "latest"
