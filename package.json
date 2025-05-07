@@ -16,7 +16,7 @@
   "dependencies": {
     "native-base": "^3.0.0",
     "react": "16.9.0",
-    "react-native": "0.76.0",
+    "react-native": "0.79.0",
     "@snyk/protect": "latest"
   },
   "devDependencies": {
