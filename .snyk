@@ -55,3 +55,9 @@ patch:
           @babel/helper-create-class-features-plugin >
           @babel/helper-replace-supers > @babel/traverse > @babel/generator >
           lodash
+    - react-native > babel-jest > @types/babel__core > @types/babel__generator > @babel/types > lodash:
+        patched: '2024-11-21T16:04:59.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-native > babel-jest > @types/babel__core >
+          @types/babel__generator > @babel/types > lodash
