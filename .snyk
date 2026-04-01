@@ -55,3 +55,33 @@ patch:
           @babel/helper-create-class-features-plugin >
           @babel/helper-replace-supers > @babel/traverse > @babel/generator >
           lodash
+    - react-native > @react-native/community-cli-plugin > @react-native/metro-babel-transformer > @react-native/babel-preset > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2024-05-02T18:03:06.607Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-native > @react-native/community-cli-plugin >
+          @react-native/metro-babel-transformer > @react-native/babel-preset >
+          @babel/plugin-transform-block-scoping > lodash
+    - react-native > @react-native/community-cli-plugin > @react-native/metro-babel-transformer > @react-native/babel-preset > @babel/plugin-transform-sticky-regex > @babel/helper-regex > lodash:
+        patched: '2024-05-02T18:03:06.607Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-native > @react-native/community-cli-plugin >
+          @react-native/metro-babel-transformer > @react-native/babel-preset >
+          @babel/plugin-transform-sticky-regex > @babel/helper-regex > lodash
+    - react-native > @react-native/community-cli-plugin > @react-native/metro-babel-transformer > @react-native/babel-preset > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2024-05-02T18:03:06.607Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-native > @react-native/community-cli-plugin >
+          @react-native/metro-babel-transformer > @react-native/babel-preset >
+          @babel/plugin-transform-classes > @babel/helper-replace-supers >
+          @babel/traverse > lodash
+    - react-native > @react-native/community-cli-plugin > @react-native/metro-babel-transformer > @react-native/babel-preset > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2024-05-02T18:03:06.607Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-native > @react-native/community-cli-plugin >
+          @react-native/metro-babel-transformer > @react-native/babel-preset >
+          @babel/plugin-transform-classes > @babel/helper-replace-supers >
+          @babel/traverse > @babel/generator > lodash
