@@ -21,6 +21,20 @@ DerivedData
 *.ipa
 *.xcuserstate
 
+# Swift Package Manager
+.swiftpm/
+
+# macOS
+.DS_Store
+
+# Swift/Xcode build artifacts
+.build/
+
+# Archives / symbols
+*.xcarchive
+*.dSYM
+*.dSYM.zip
+
 # Android/IntelliJ
 #
 build/

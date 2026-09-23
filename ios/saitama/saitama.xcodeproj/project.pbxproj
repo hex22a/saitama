@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		14BF71DE3063E7CE005F6AFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14BF71C83063E7CD005F6AFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14BF71CF3063E7CD005F6AFE;
+			remoteInfo = saitama;
+		};
+		14BF71E83063E7CE005F6AFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14BF71C83063E7CD005F6AFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14BF71CF3063E7CD005F6AFE;
+			remoteInfo = saitama;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14BF71D03063E7CD005F6AFE /* saitama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = saitama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14BF71DD3063E7CE005F6AFE /* saitamaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = saitamaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14BF71E73063E7CE005F6AFE /* saitamaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = saitamaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		14BF71D23063E7CD005F6AFE /* saitama */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = saitama;
+			sourceTree = "<group>";
+		};
+		14BF71E03063E7CE005F6AFE /* saitamaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = saitamaTests;
+			sourceTree = "<group>";
+		};
+		14BF71EA3063E7CE005F6AFE /* saitamaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = saitamaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14BF71CD3063E7CD005F6AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		14BF71DA3063E7CE005F6AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		14BF71E43063E7CE005F6AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14BF71C73063E7CD005F6AFE = {
+			isa = PBXGroup;
+			children = (
+				14BF71D23063E7CD005F6AFE /* saitama */,
+				14BF71E03063E7CE005F6AFE /* saitamaTests */,
+				14BF71EA3063E7CE005F6AFE /* saitamaUITests */,
+				14BF71D13063E7CD005F6AFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14BF71D13063E7CD005F6AFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14BF71D03063E7CD005F6AFE /* saitama.app */,
+				14BF71DD3063E7CE005F6AFE /* saitamaTests.xctest */,
+				14BF71E73063E7CE005F6AFE /* saitamaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14BF71CF3063E7CD005F6AFE /* saitama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14BF71EF3063E7CE005F6AFE /* Build configuration list for PBXNativeTarget "saitama" */;
+			buildPhases = (
+				14BF71CC3063E7CD005F6AFE /* Sources */,
+				14BF71CD3063E7CD005F6AFE /* Frameworks */,
+				14BF71CE3063E7CD005F6AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				14BF71D23063E7CD005F6AFE /* saitama */,
+			);
+			name = saitama;
+			productName = saitama;
+			productReference = 14BF71D03063E7CD005F6AFE /* saitama.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14BF71DC3063E7CE005F6AFE /* saitamaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14BF71F23063E7CE005F6AFE /* Build configuration list for PBXNativeTarget "saitamaTests" */;
+			buildPhases = (
+				14BF71D93063E7CE005F6AFE /* Sources */,
+				14BF71DA3063E7CE005F6AFE /* Frameworks */,
+				14BF71DB3063E7CE005F6AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14BF71DF3063E7CE005F6AFE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				14BF71E03063E7CE005F6AFE /* saitamaTests */,
+			);
+			name = saitamaTests;
+			productName = saitamaTests;
+			productReference = 14BF71DD3063E7CE005F6AFE /* saitamaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14BF71E63063E7CE005F6AFE /* saitamaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14BF71F53063E7CE005F6AFE /* Build configuration list for PBXNativeTarget "saitamaUITests" */;
+			buildPhases = (
+				14BF71E33063E7CE005F6AFE /* Sources */,
+				14BF71E43063E7CE005F6AFE /* Frameworks */,
+				14BF71E53063E7CE005F6AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14BF71E93063E7CE005F6AFE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				14BF71EA3063E7CE005F6AFE /* saitamaUITests */,
+			);
+			name = saitamaUITests;
+			productName = saitamaUITests;
+			productReference = 14BF71E73063E7CE005F6AFE /* saitamaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14BF71C83063E7CD005F6AFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					14BF71CF3063E7CD005F6AFE = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					14BF71DC3063E7CE005F6AFE = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 14BF71CF3063E7CD005F6AFE;
+					};
+					14BF71E63063E7CE005F6AFE = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 14BF71CF3063E7CD005F6AFE;
+					};
+				};
+			};
+			buildConfigurationList = 14BF71CB3063E7CD005F6AFE /* Build configuration list for PBXProject "saitama" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14BF71C73063E7CD005F6AFE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 14BF71D13063E7CD005F6AFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14BF71CF3063E7CD005F6AFE /* saitama */,
+				14BF71DC3063E7CE005F6AFE /* saitamaTests */,
+				14BF71E63063E7CE005F6AFE /* saitamaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14BF71CE3063E7CD005F6AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		14BF71DB3063E7CE005F6AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		14BF71E53063E7CE005F6AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14BF71CC3063E7CD005F6AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		14BF71D93063E7CE005F6AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		14BF71E33063E7CE005F6AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14BF71DF3063E7CE005F6AFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14BF71CF3063E7CD005F6AFE /* saitama */;
+			targetProxy = 14BF71DE3063E7CE005F6AFE /* PBXContainerItemProxy */;
+		};
+		14BF71E93063E7CE005F6AFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14BF71CF3063E7CD005F6AFE /* saitama */;
+			targetProxy = 14BF71E83063E7CE005F6AFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14BF71ED3063E7CE005F6AFE /* Debug configuration for PBXProject "saitama" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = YRM3H6ZTW2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14BF71EE3063E7CE005F6AFE /* Release configuration for PBXProject "saitama" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = YRM3H6ZTW2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14BF71F03063E7CE005F6AFE /* Debug configuration for PBXNativeTarget "saitama" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YRM3H6ZTW2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = crftd.saitama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14BF71F13063E7CE005F6AFE /* Release configuration for PBXNativeTarget "saitama" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YRM3H6ZTW2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = crftd.saitama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14BF71F33063E7CE005F6AFE /* Debug configuration for PBXNativeTarget "saitamaTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YRM3H6ZTW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = crftd.saitamaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/saitama.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/saitama";
+			};
+			name = Debug;
+		};
+		14BF71F43063E7CE005F6AFE /* Release configuration for PBXNativeTarget "saitamaTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YRM3H6ZTW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = crftd.saitamaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/saitama.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/saitama";
+			};
+			name = Release;
+		};
+		14BF71F63063E7CE005F6AFE /* Debug configuration for PBXNativeTarget "saitamaUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YRM3H6ZTW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = crftd.saitamaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = saitama;
+			};
+			name = Debug;
+		};
+		14BF71F73063E7CE005F6AFE /* Release configuration for PBXNativeTarget "saitamaUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YRM3H6ZTW2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = crftd.saitamaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = saitama;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14BF71CB3063E7CD005F6AFE /* Build configuration list for PBXProject "saitama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BF71ED3063E7CE005F6AFE /* Debug configuration for PBXProject "saitama" */,
+				14BF71EE3063E7CE005F6AFE /* Release configuration for PBXProject "saitama" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		14BF71EF3063E7CE005F6AFE /* Build configuration list for PBXNativeTarget "saitama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BF71F03063E7CE005F6AFE /* Debug configuration for PBXNativeTarget "saitama" */,
+				14BF71F13063E7CE005F6AFE /* Release configuration for PBXNativeTarget "saitama" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		14BF71F23063E7CE005F6AFE /* Build configuration list for PBXNativeTarget "saitamaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BF71F33063E7CE005F6AFE /* Debug configuration for PBXNativeTarget "saitamaTests" */,
+				14BF71F43063E7CE005F6AFE /* Release configuration for PBXNativeTarget "saitamaTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		14BF71F53063E7CE005F6AFE /* Build configuration list for PBXNativeTarget "saitamaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BF71F63063E7CE005F6AFE /* Debug configuration for PBXNativeTarget "saitamaUITests" */,
+				14BF71F73063E7CE005F6AFE /* Release configuration for PBXNativeTarget "saitamaUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14BF71C83063E7CD005F6AFE /* Project object */;
+	validationLevel = 1;
+}
